@@ -1,6 +1,6 @@
 pipeline{
     agent {
-        lable 'Agent-SPC'
+        label 'Agent-SPC'
     }
     parameters{
         string(
