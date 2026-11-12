@@ -9,7 +9,7 @@ pipeline{
             description:'Switching_gitBranch'
             )
     }
-    Stages{
+    stages{
         stage('check-out'){
             steps{
                 git branch: params.Git_Branch, 
